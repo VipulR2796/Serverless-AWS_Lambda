@@ -1,0 +1,28 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "Repository for lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/secret-manager": "^5.0.1",
+    "@google-cloud/storage": "^7.6.0",
+    "aws-sdk": "^2.1507.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "download": "^8.0.0",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "install": "^0.13.0",
+    "mailgun-js": "^0.22.0",
+    "node-fetch": "^2.6.0",
+    "npm": "^10.2.4",
+    "path": "^0.12.7",
+    "uuid": "^9.0.1"
+  }
+}
